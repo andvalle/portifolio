@@ -9,19 +9,17 @@ body{
      font-family:Arial, Helvetica, sans-serif
 }
 
-a:hover{
-    background:cornflowerblue;
-    display: block;
-  
-}
+
  .perfil{
 
     margin:10px;
     width: 300px;
-    background-color: rgb(68, 68, 68);
+    background: rgba(40, 41, 41, 0.123);
+    background: linear-gradient(0deg, rgba(40, 41, 41, 0.007) 0%, rgba(88, 87, 87, 0.514) 63%);
     color: white;
     display:flex;
     min-height: 700px;
+    box-shadow: 1px 6px 10px 3px rgba(0, 0, 0, 0.171);
     
   }
 
@@ -81,5 +79,32 @@ align-items: center;
  }
 
     
+.icon{
+    
+    background-repeat: no-repeat;
+    background-size: 12%;
+  
 
+}
+
+.icon:hover{
+   border-right: 4px solid white;
+   
+}
+    
+    
+
+.icon.gitBtn {
+    background-image:url(/img/GitHub-Mark-32px.png);
+
+}
+
+.icon.linkBtn {
+    background-image:url(/img/linkedin.png);
+
+}
+.icon.emailBtn {
+    background-image:url(/img/email.png);
+
+}
 
