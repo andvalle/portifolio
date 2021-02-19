@@ -106,16 +106,16 @@ align-items: center;
     
 
 .icon.gitBtn {
-    background-image:url(../img/GitHub-Mark-32px.png);
+    background-image:url(img/GitHub-Mark-32px.png);
 
 }
 
 .icon.linkBtn {
-    background-image:url(../img/linkedin.png);
+    background-image:url(img/linkedin.png);
 
 }
 .icon.emailBtn {
-    background-image:url(../img/email.png);
+    background-image:url(img/email.png);
 }
 
 .menu {
