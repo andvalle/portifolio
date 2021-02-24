@@ -77,6 +77,10 @@ nav #barras{
                      
      }
 
+     .perfil {
+     width: 80%;
+     }
+
     
     .list-sobre{
         
@@ -106,7 +110,7 @@ nav #barras{
     nav ul{
          position: fixed;
          width: 90%;
-         height:100vh;
+         height:100%;
          background:rgba(0, 0, 0, 0.651);
          top:50px;
          text-align: center;
@@ -146,14 +150,14 @@ body{
 
 
  .perfil{
-
-    margin:10px;
     width: 300px;
+    
+    margin:10px;
     background: rgba(40, 41, 41, 0.123);
     background: linear-gradient(0deg, rgba(40, 41, 41, 0.007) 0%, rgba(88, 87, 87, 0.514) 63%);
     color: white;
     display:flex;
-    min-height: auto;
+    
     box-shadow: 1px 6px 10px 3px rgba(0, 0, 0, 0.171);
     
   }
