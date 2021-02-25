@@ -78,9 +78,10 @@ nav #barras{
                      
      }
 
-     .perfil.perfil-item{
+     .perfil{
 
      width: 80%;
+     border-left: 2px solid royalblue;
      }
 
     
@@ -150,16 +151,13 @@ body{
 
 
  .perfil{
-    max-width: 300px;
-    margin:10px;
+   width: 300px;
+   margin:10px;
    background:linear-gradient(rgba(73, 73, 73, 0.404), rgba(0, 0, 0, 0.445));
    border-right: 2px solid royalblue;
-    
-    color: white;
-    display:flex;
-    
-    box-shadow: 1px 6px 10px 3px rgba(0, 0, 0, 0.171);
-    
+   color: white;
+   display:flex;
+   box-shadow: 1px 6px 10px 3px rgba(0, 0, 0, 0.171);
   }
 
   .perfil-item{
@@ -248,9 +246,7 @@ align-items: center;
    border-right: 4px solid white;
    
 }
-    
-    
-
+ 
 .icon.gitBtn {
     background-image:url(img/GitHub-Mark-32px.png);
 
