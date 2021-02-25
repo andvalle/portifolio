@@ -18,7 +18,7 @@ nav {
 nav ul {
     float: right;
     margin-right:40px;
-
+    
 }
 nav li{
      display: inline-block;
@@ -42,11 +42,12 @@ a:hover{
 
 
 label.logo{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     padding: 0 50px;
     color: white;
     line-height: 50px;
+    font-family:   'Quicksand', sans-serif;
 }
 
 nav #barras{
@@ -77,7 +78,8 @@ nav #barras{
                      
      }
 
-     .perfil {
+     .perfil.perfil-item{
+
      width: 80%;
      }
 
@@ -87,10 +89,8 @@ nav #barras{
         padding-left:20px;
         margin-left: 20px;
         max-width: 300px;
-        
-        
-        
-        }
+   
+    }
 
     nav {
       position: fixed;
@@ -134,7 +134,7 @@ nav #barras{
         border-right:2px solid;
         font-size: 20px;
         font-weight: none;
-        font-family:Arial, Helvetica, sans-serif ;
+        font-family:   'Quicksand', sans-serif;
     }
      
 
@@ -150,11 +150,11 @@ body{
 
 
  .perfil{
-    width: 300px;
-    
+    max-width: 300px;
     margin:10px;
-    background: rgba(40, 41, 41, 0.123);
-    background: linear-gradient(0deg, rgba(40, 41, 41, 0.007) 0%, rgba(88, 87, 87, 0.514) 63%);
+   background:linear-gradient(rgba(73, 73, 73, 0.404), rgba(0, 0, 0, 0.445));
+   border-right: 2px solid royalblue;
+    
     color: white;
     display:flex;
     
@@ -192,28 +192,36 @@ body{
   }
 
   .list-sobre{
-    background: rgba(255, 254, 254, 0.973) ;
+    background:rgba(0, 0, 0, 0.445);
     box-shadow: 5px 2px 10px black;
     width: 100%;
      height:auto;
     
     padding:30px;
-    border-bottom: 5px solid rgba(28, 110, 164, 0.192);
+    border-right: 2px solid royalblue ;
+    border-bottom: 3px solid royalblue;
     border-radius: 10px;
     margin:10px;
   }
 
   .list-sobre .textoin {
-    font-family: 'Fredoka One', cursive;;
+    font-family:  'Tajawal', sans-serif;
     font-size: auto;
-    color: rgb(24, 23, 23);
+    
+    color:white;
+    font-weight: 700;
+    text-align: justify;
     
    }
    .textoin ul{
-       padding: 3px 0 3px 0;
+       padding-bottom: 8px;
+       border-left:2px solid white;
+       padding-left:10px;
+       border-radius: 3px;
    }
    .textoin  li{
        padding:2px;
+       padding-bottom:5px;
    }
  
 
@@ -233,7 +241,6 @@ align-items: center;
     
     background-repeat: no-repeat;
     background-size: 12%;
-  
 
 }
 
